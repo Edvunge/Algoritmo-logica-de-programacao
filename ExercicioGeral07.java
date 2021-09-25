@@ -7,5 +7,20 @@ public class ExercicioGeral07 {
         Ex: Digite um número: 3.5 O dobro de 3.5 é 7.0 A terça parte de 3.5 é 1.16666
         */
 
+        Double numberX;
+        Double precoDoProduto2;
+
+        Scanner input = new Scanner(System.in);
+
+
+        System.out.print("introduza um numero para o preço: ");
+        numberX  = input.nextDouble();
+
+
+        Double dobroNumerico = ( numberX * numberX ) / 3;
+
+
+        System.out.println("o resultado do dobro e: " + dobroNumerico);
+
     }
 }
