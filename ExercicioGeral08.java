@@ -15,8 +15,9 @@ public class ExercicioGeral08 {
         System.out.println("Digite uma distância em metros:");
         distanciaPercorrida  = input.nextDouble();
 
-
-
+        /*
+        variaveis são espacos na memoria do computador
+        */
 
     }
 }
