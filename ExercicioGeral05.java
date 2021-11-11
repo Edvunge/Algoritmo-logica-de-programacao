@@ -12,8 +12,7 @@ public class ExercicioGeral05 {
        int  mediaAluno;
 
 
-       Scanner input = new Scanner(System.in);
-
+        Scanner input = new Scanner(System.in);
 
         System.out.print("introduza a primeira nota:? ");
         notaAluno1  = input.nextInt();
